@@ -5,10 +5,13 @@ var tomSawyer = new Song("Tom Sawyer", "Rush", "4:30");
 var limeLight = new Song("Limelight", "Rush", "5:01");
 var goodbye = new Song("Goodbye", "The Sundays", "4:24");
 
+var rogueOne = new Movie('Rogue One', 2016, '120:00');
+
 playlist.add(subDivisions);
 playlist.add(tomSawyer);
 playlist.add(limeLight);
 playlist.add(goodbye);
+playlist.add(rogueOne);
 
 var playlistElement = document.getElementById("playlist");
 

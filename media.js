@@ -1,4 +1,4 @@
-function Media(title,  duration) {
+function Media(title, duration) {
   this.title = title;
   this.duration = duration;
   this.isPlaying = false;
